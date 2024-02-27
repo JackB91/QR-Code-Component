@@ -1,5 +1,11 @@
 
 html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -10,20 +16,34 @@ html {
 .container {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: center; 
     border: 20px solid white;
     border-radius: 20px;
     background-color: white;
-    margin:4rem 2rem;   
+    margin:4rem 2rem; 
+    max-width: 16.5rem;
+    align-content: center;
+     
 }
+
+
+
 
 img {
     border-radius: 10px;
+    height: auto;
+    
+    
+
 }
 
 h2 {
     font-size: 1.25rem;
     color: hsl(218, 44%, 22%);
+}
+
+.container h2 {
+    margin-bottom: 0;
 }
 
 p {
